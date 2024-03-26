@@ -1,5 +1,6 @@
 #!/bin/bash
 # 💫 https://github.com/JaKooLit 💫 #
+# Modified by https://github.com/TomekBobrowicz for personal usage #
 # nwg-look install via OPI) #
 
 ## WARNING: DO NOT EDIT BEYOND THIS LINE IF YOU DON'T KNOW WHAT YOU ARE DOING! ##

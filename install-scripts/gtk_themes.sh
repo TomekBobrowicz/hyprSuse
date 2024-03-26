@@ -1,5 +1,6 @@
 #!/bin/bash
 # 💫 https://github.com/JaKooLit 💫 #
+# Modified by https://github.com/TomekBobrowicz for personal usage #
 # GTK Themes & ICONS and  Sourcing from a different Repo #
 
 engine=(

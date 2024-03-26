@@ -10,13 +10,8 @@ fi
 
 clear
 
-printf "\n%.0s" {1..3}                            
-echo "   |  _.   |/  _   _  |  o _|_ "
-echo " \_| (_| o |\ (_) (_) |_ |  |_ "
-printf "\n%.0s" {1..2}  
-
 # Welcome message
-echo "$(tput setaf 6)Welcome to JaKooLit's OpenSUSE (Tumbleweed)- Hyprland Install Script!$(tput sgr0)"
+echo "$(tput setaf 6)Welcome to OpenSUSE (Tumbleweed)- Hyprland Install Script!$(tput sgr0)"
 echo
 echo "$(tput setaf 166)ATTENTION: Run a full system update and Reboot first!! (Highly Recommended) $(tput sgr0)"
 echo
@@ -118,8 +113,6 @@ execute_script() {
 
 # Collect user responses to all questions
 printf "\n"
-ask_yes_no "-Do you have any nvidia gpu in your system?" nvidia
-printf "\n"
 ask_yes_no "-Install GTK themes (required for Dark/Light function)?" gtk_themes
 printf "\n"
 ask_yes_no "-Do you want to configure Bluetooth?" bluetooth
@@ -179,10 +172,6 @@ fi
 
 if [ "$zsh" == "Y" ]; then
     execute_script "zsh.sh"
-fi
-
-if [ "$rog" == "Y" ]; then
-    execute_script "rog.sh"
 fi
 
 execute_script "InputGroup.sh"

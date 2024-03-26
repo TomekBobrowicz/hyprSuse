@@ -1,5 +1,7 @@
 #!/bin/bash
 # 💫 https://github.com/JaKooLit 💫 #
+# Modified by https://github.com/TomekBobrowicz for personal usage #
+
 # Packman #
 
 packman_repo="https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/"

@@ -1,5 +1,6 @@
 #!/bin/bash
-# 💫 https://github.com/JaKooLit 💫 #
+# 💫 https://github.com/JaKooLit 💫 # 
+# Modified by https://github.com/TomekBobrowicz for personal usage #
 # Hyprland-Dots Packages #
 # edit your packages desired here. 
 # WARNING! If you remove packages here, dotfiles may not work properly.
@@ -21,9 +22,6 @@ hypr_package=(
   ImageMagick
   jq
   kitty
-  kvantum-qt6
-  kvantum-themes
-  kvantum-manager
   libnotify-tools
   nano
   openssl
@@ -59,7 +57,6 @@ hypr_package_2=(
   mousepad
   mpv
   mpv-mpris
-  nvtop
   vim
   yad
 )
