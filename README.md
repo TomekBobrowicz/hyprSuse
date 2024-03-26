@@ -78,7 +78,7 @@
 #### ✨ to run
 > clone this repo (latest commit only) to reduce file size download by using git. Change directory, make executable and run the script
 ```bash
-git clone --depth=1 https://github.com/JaKooLit/OpenSuse-Hyprland.git
+git clone --depth=1 https://github.com/TomekBobrowicz/hyprSuse.git
 cd OpenSuse-Hyprland
 chmod +x install.sh
 ./install.sh
